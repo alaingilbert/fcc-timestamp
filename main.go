@@ -47,7 +47,6 @@ func start(c *cli.Context) error {
 }
 
 func main() {
-	fmt.Println("vim-go")
 	app := cli.NewApp()
 	app.Author = "Alain Gilbert"
 	app.Email = "alain.gilbert.15@gmail.com"
